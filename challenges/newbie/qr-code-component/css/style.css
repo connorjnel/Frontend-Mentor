@@ -9,6 +9,7 @@
     --spacing-medium: 24px;
     --spacing-large: 40px;
     --corner: 20px;
+    --corner-small: 10px;
 }
 
 /* CSS Reset */
@@ -70,7 +71,7 @@ main {
 .qr-image img {
     width: 100%;
     height: 100%;
-    border-radius: var(--corner);
+    border-radius: var(--corner-small);
 }
 
 .qr-text {
