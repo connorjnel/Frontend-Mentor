@@ -1,0 +1,25 @@
+/* Variables */
+
+:root {
+    --main-color: white;
+    --accent-color: darkorange;
+    --body-font-size: 16px;
+    --heading-font-size: 20px;
+}
+
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Universal*/
+
+body {
+    font-family: 'Roboto';
+}
+
+/* Header */
+
+/* Main Body Styles */
