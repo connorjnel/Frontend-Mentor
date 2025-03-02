@@ -35,3 +35,5 @@ Basic QR Code component with fixed size, no responsive needed so just center it 
 - Did most of the css already since its mainly globals from style docs, now writing the html
 - Had minor issue with qr image having a 16px spacing at bottom stacking above the text block, changing font size of figure class resolved, could be because its expecting a figcaption?
 - May be smart to move figure into article and add the text as a figcaption instead of current which is section, figure, article
+- im like 80% sure that the cards have a drop shadow of some kind but I cant figure it out
+- Added drop shadow, like smallest drop shadow ever, only 4.77% opacity on pure black
