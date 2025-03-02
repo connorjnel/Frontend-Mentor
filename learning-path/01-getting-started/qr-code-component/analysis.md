@@ -33,3 +33,5 @@ Basic QR Code component with fixed size, no responsive needed so just center it 
 - Super important, built in VSCODE translate to hex had different result that style in guide in pixel, used those hex values instead
 - Updated font from google fonts, also edited link in index.html
 - Did most of the css already since its mainly globals from style docs, now writing the html
+- Had minor issue with qr image having a 16px spacing at bottom stacking above the text block, changing font size of figure class resolved, could be because its expecting a figcaption?
+- May be smart to move figure into article and add the text as a figcaption instead of current which is section, figure, article

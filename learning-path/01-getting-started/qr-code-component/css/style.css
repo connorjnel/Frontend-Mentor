@@ -58,6 +58,10 @@ main {
     border-radius: var(--corner);
 }
 
+.qr-image {
+    font-size: 0;
+}
+
 .qr-image img {
     width: 100%;
     height: 100%;
