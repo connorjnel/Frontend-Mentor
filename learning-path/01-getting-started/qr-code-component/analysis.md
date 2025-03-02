@@ -1,4 +1,4 @@
-# Project Name
+# QR Code Component
 
 QR Code Component
 
