@@ -22,7 +22,7 @@
 /* Universal*/
 
 body {
-    font-family: 'Outfit';
+    font-family: 'Outfit', sans-serif;
     background-color: var(--slate300);
 }
 
