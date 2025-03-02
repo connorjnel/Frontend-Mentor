@@ -41,6 +41,7 @@ main {
     letter-spacing: 0.2px;
     padding: var(--spacing-small);
     font-weight: 400;
+    color: var(--slate500);
 }
 
 .text-bold {
@@ -48,6 +49,7 @@ main {
     line-height: 1.2;
     letter-spacing: 0px;
     font-weight: 700;
+    color: var(--slate900);
 }
 
 /* QR Card */
