@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+html {
+    --s: 200px; /* control the size*/
+    --c1: #1d1d1d;
+    --c2: #4e4f51;
+    --c3: #3c3c3c;
+
+    background: repeating-conic-gradient(from 30deg, #0000 0 120deg, var(--c3) 0 50%)
+            calc(var(--s) / 2) calc(var(--s) * tan(30deg) / 2),
+        repeating-conic-gradient(from 30deg, var(--c1) 0 60deg, var(--c2) 0 120deg, var(--c3) 0 50%);
+    background-size: var(--s) calc(var(--s) * tan(30deg));
+    background-color: #4e4f51;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+main {
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    max-width: 80%;
+}
+
+.orange {
+    color: orange;
+}
+
+.orangered {
+    color: orangered;
+}
+
+.blue {
+    color: #18206f;
+}
+
+main h1,
+h2,
+p {
+    line-height: 1.5;
+    text-align: center;
+}
+
+.project-block {
+    padding: 10px;
+}
+
+.project-block ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.project-block ul li a {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.project-block ul li a:hover {
+    color: orange;
+    transition: color 0.5s ease;
+}
+
+main h1 {
+    font-size: 3em;
+    font-weight: bold;
+    padding: 0;
+}
+
+main h2 {
+    font-size: 2em;
+    padding: 10px;
+}
+
+main p {
+    font-size: 1em;
+    padding: 10px;
+}
+
+main a {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+main a:hover {
+    color: orange;
+    transition: color 0.5s ease;
+}
+
+@media screen and (max-width: 600px) {
+    main {
+        max-width: 90%;
+        padding: 15px;
+    }
+
+    main h1 {
+        font-size: 2em;
+    }
+    main h2 {
+        font-size: 0.85em;
+    }
+
+    main p {
+        font-size: 0.75em;
+    }
+
+    main a,
+    .project-block ul li a {
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .project-block ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+    }
+}
